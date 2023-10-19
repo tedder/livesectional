@@ -6,7 +6,7 @@ delay_time = 1
 
 #Display active IP address for builder to open up web browser to configure.
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-apurl = 'https://www.aviationweather.gov/adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&hoursBeforeNow=1.5&stationString=KFLG,%20KSEZ'
+apurl = 'https://aviationweather-cprk.ncep.noaa.gov/adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&hoursBeforeNow=1.5&stationString=KFLG,%20KSEZ'
 #apurl = 'http://www.livesectional.com'
 
 if test == 0:
